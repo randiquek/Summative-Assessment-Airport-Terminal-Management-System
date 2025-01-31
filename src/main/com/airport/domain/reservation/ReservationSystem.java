@@ -10,16 +10,16 @@ public class ReservationSystem {
     private HashMap<String, ArrayList<Passenger>> reservations;
 
     public ReservationSystem() {
-
+        this.reservations = new HashMap<>();
     }
     public ReservationSystem(HashMap<String, ArrayList<Passenger>> reservations) {
-        this.reservations = new HashMap<>();
+        this.reservations = reservations;
     }
 
     public void addReservation(String flightNumber, Passenger passenger) {
-//        if(reservations.containsKey(flightNumber)) {
-//            reservations.put(flightNumber, new ArrayList<>());
-//        }
+        if(!reservations.containsKey(flightNumber)) {
+            reservations.put(flightNumber, new ArrayList<>());
+        }
         reservations.get(flightNumber).add(passenger);
     }
 
