@@ -17,9 +17,9 @@ public class ReservationSystem {
     }
 
     public void addReservation(String flightNumber, Passenger passenger) {
-        if(reservations.containsKey(flightNumber)) {
-            reservations.put(flightNumber, new ArrayList<>());
-        }
+//        if(reservations.containsKey(flightNumber)) {
+//            reservations.put(flightNumber, new ArrayList<>());
+//        }
         reservations.get(flightNumber).add(passenger);
     }
 
