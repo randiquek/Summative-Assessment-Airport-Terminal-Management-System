@@ -1,6 +1,6 @@
 package com.airport.domain.model;
 
-public class CommercialAircraft extends Aircraft{
+public class CommercialAircraft extends com.airport.domain.model.Aircraft {
     private String airlineName;
 
     public CommercialAircraft(String model, int capacity, String fuelCapacity, String airlineName) {
