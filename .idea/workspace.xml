@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4539b372-0f58-4fdf-8519-a7ceb38391f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/com/airport/domain/model/Aircraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/airport/domain/model/CommercialAircraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/airport/domain/model/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/airport/domain/model/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/com/airport/domain/model/PrivateJet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +33,23 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "1-issue-1-set-up-all-classes-and-attribute-for-the-core-data-models",
+    "git-widget-placeholder": "2-issue-2-implement-reservation-system-class",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Summative-Assessment-Airport-Terminal-Management-System" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Summative-Assessment-Airport-Terminal-Management-System" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
